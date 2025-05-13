@@ -1,4 +1,4 @@
-import { validateEmail } from "./validate-function";
+import { validateEmail } from "./validate-function.utils";
 
 describe("checking validateEmail", () => {
   it("should return error if email is empty", () => {
