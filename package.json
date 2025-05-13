@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "name": "js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AbdurakhmonZiyodov/testing.git",
+  "author": "Abdurakhmon Ziyodov <abdurakhmonziyodov@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
